@@ -1,7 +1,7 @@
 :root {
-    --main-font-family:'Roboto',sans-serif;
-    --secondary-font-family-family: 'Raleway', sans-serif;
-  }
+    --main-font-family:'Roboto', sans-serif;
+    --secondary-font-family-family:'Raleway', sans-serif;
+}
 
 ul {
     list-style: none;
