@@ -30,8 +30,12 @@ ul {
     text-transform: uppercase;
 }
 
-.logo-studio {
+.logo-header-studio {
     color:#2e2f42;
+}
+
+.logo-footer-studio {
+    color:#f4f4fd
 }
 
 button {
