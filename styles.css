@@ -1,14 +1,12 @@
 
 
 :root {
-  --main-font-family:'Roboto', sans-serif;
-  --secondary-font-family-family:'Raleway', sans-serif;
-  --primary-text-color-theme-dark: #F4F4FD;
-  --primary-text-color-theme-light: #2E2F42;
-  --secondary-text-color-theme-dark: #FFFFFF;
-  --secondary-text-color-theme-light: #4d5ae5;
-  --accent-color: #4D5AE5;
+    color: #434455;
+    background-color: #FFFFFF;
+    --main-font-family:'Roboto', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
+
 
 ul {
     list-style: none;
