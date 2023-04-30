@@ -65,7 +65,7 @@ body {
 }
 
 .contact-link {
-    color: var(--secondary-text-color-theme-light)
+    color: var(--secondary-text-color-theme-light);
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em
