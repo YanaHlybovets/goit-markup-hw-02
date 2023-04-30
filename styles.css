@@ -3,6 +3,11 @@
 :root {
     --main-font-family: 'Roboto', sans-serif;
     --secondary-font-family-family: 'Raleway', sans-serif;
+    --primary-text-color-theme-dark: #F4F4FD;
+    --primary-text-color-theme-light: #2E2F42;
+    --secondary-text-color-theme-dark: #FFFFFF;
+    --secondary-text-color-theme-light: #434455;
+    --accent-color: #4D5AE5;
 }
 
 
@@ -24,21 +29,21 @@ ul {
 }
 
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: var(--secondary-font-family-family);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    color: #4D5AE5;
+    color: var(--accent-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .logo-header-studio {
-    color:#2e2f42;
+    color: var(--primary-text-color-theme-light)
 }
 
 .logo-footer-studio {
-    color:#f4f4fd
+    color: var(--primary-text-color-theme-dark)
 }
 
 button {
@@ -46,9 +51,9 @@ button {
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
+    font-family: var(--main-font-family);
+    color: var(--secondary-text-color-theme-light);
+    background-color: var(--secondary-text-color-theme-dark)
 }
 
 .menu-link {
@@ -56,35 +61,35 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primary-text-color-theme-light)
 }
 
 .contact-link {
-    color: #434455;
+    color: var(--secondary-text-color-theme-light)
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em
 }
 
 .content-button {
-    background-color: #F4F4FD;
+    background-color: var(--primary-text-color-theme-dark);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #4d5ae5;
-    font-family: 'Roboto', sans-serif;
+    color: var(--accent-color);
+    font-family: var(--main-font-family);
     letter-spacing: 0.04em
 }
 
 .content-button:hover, .content-button:focus {
     background-color: #404BBF;
-    color: #FFFFFF;
+    color: var(--secondary-text-color-theme-dark)
 }
 
 .order-button {
-    background: #4D5AE5;
+    background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     display: flex;
@@ -96,8 +101,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    color: #FFFFFF;
-    font-family: 'Roboto', sans-serif;
+    color: var(--secondary-text-color-theme-dark);
+    font-family: var(--main-font-family);
     letter-spacing: 0.04em
 }
 
@@ -106,14 +111,14 @@ body {
 }
 
 .main-page {
-    background: #2E2F42;
+    background: var(--primary-text-color-theme-light)
 }
 
 .main-header {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
-    color: #FFFFFF;
+    color: var(--secondary-text-color-theme-dark);
     text-align: center;
     letter-spacing: 0.02em
 }
@@ -129,15 +134,15 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    color: #2e2f42;
+    color: var(--primary-text-color-theme-light)
 }
 
 .team-page {
-    background: #F4F4FD;
+    background: var(--primary-text-color-theme-dark);
 }
 
 .list-item {
-    background-color: #FFFFFF
+    background-color: var(--secondary-text-color-theme-dark)
 }
 
 .content-title {
@@ -145,7 +150,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2E2F42;
+    color: var(--primary-text-color-theme-light);
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -156,7 +161,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--secondary-text-color-theme-light);
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -167,9 +172,9 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--primary-text-color-theme-dark)
 }
 
 .footer-bgd {
-    background: #2E2F42;
+    background: var(--primary-text-color-theme-light)
 }
