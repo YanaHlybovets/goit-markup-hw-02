@@ -1,3 +1,5 @@
+
+
 :root {
   --main-font-family:'Roboto', sans-serif;
   --secondary-font-family-family:'Raleway', sans-serif;
@@ -48,7 +50,7 @@ button {
 }
 
 body {
-    font-family: 'Roboto',sans-serif;
+    font-family: var(--main-font-family);
     color: #434455;
     background-color: #FFFFFF;
 }
