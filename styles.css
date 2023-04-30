@@ -1,8 +1,8 @@
 
 
 :root {
-    color: #434455;
-    background-color: #FFFFFF;
+    --main-font-family: 'Roboto', sans-serif;
+    --secondary-font-family-family: 'Raleway', sans-serif;
 }
 
 
