@@ -3,8 +3,6 @@
 :root {
     color: #434455;
     background-color: #FFFFFF;
-    --main-font-family:'Roboto', sans-serif;
-    --secondary-font-family: 'Raleway', sans-serif;
 }
 
 
@@ -47,8 +45,8 @@ button {
     cursor: pointer;
 }
 
-body:root {
-    font-family: var(--main-font-family);
+body {
+    font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
