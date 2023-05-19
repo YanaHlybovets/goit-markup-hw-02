@@ -142,8 +142,6 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    flex: none;
-    flex-grow: 0;
 }
 
 .content {
@@ -152,8 +150,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    flex: none;
-    flex-grow: 0;
 }
 
 .footer-content {
