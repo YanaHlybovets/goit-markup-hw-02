@@ -72,8 +72,6 @@ body {
 
 .content-button {
     background-color: #F4F4FD;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -90,14 +88,6 @@ body {
 
 .order-button {
     background: #4D5AE5;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
-    display: flex;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -153,7 +143,6 @@ body {
     letter-spacing: 0.02em;
     color: #2E2F42;
     flex: none;
-    order: 0;
     flex-grow: 0;
 }
 
@@ -164,7 +153,6 @@ body {
     letter-spacing: 0.02em;
     color: #434455;
     flex: none;
-    order: 1;
     flex-grow: 0;
 }
 
