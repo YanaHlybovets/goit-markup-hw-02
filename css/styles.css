@@ -17,13 +17,16 @@ ul {
     text-decoration: none;
 }
 
+.link-logo {
+    text-decoration: none;
+}
+
 .list {
     list-style: none;
 }
 
 .link:hover,
 .link:focus {
-    text-decoration: underline;
     color: #404BBF
 }
 
