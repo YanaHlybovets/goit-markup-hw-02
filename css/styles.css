@@ -17,18 +17,12 @@ ul {
     text-decoration: none;
 }
 
-.link-logo {
-    text-decoration: none;
-}
 
 .list {
     list-style: none;
 }
 
-.link:hover,
-.link:focus {
-    color: #404BBF
-}
+
 
 .logo {
     font-family: 'Raleway', sans-serif;
@@ -66,11 +60,21 @@ body {
     color: #2E2F42;
 }
 
+.menu-link:hover,
+.menu-link:focus {
+    color: #404BBF;
+}
+
 .contact-link {
     color: #434455;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em
+}
+
+.contact-link:hover,
+.contact-link:focus {
+    color: #404BBF;
 }
 
 .content-button {
